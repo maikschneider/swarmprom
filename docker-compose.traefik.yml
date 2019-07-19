@@ -59,6 +59,7 @@ services:
 
   grafana:
     build: ./grafana
+    image: swarmprom_grafana
     networks:
       - default
       - net
